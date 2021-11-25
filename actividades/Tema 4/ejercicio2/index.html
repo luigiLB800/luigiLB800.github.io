@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <style>
+            p[name]{
+                background: yellow;
+            }
+            p[name="parrafo2"]{
+                background: red;
+            }
+            p[name~=p3]{
+                background: green;
+            }
+            p[name^="p4"]{
+                background: grey;
+            }
+            p[name$="p5"]{
+                background: violet;
+            }
+            p[name*="p6"]{
+                background: orange;
+            }
+            a.highlight:hover{
+                color: #ff0000;
+            }
+        </style>
+    </head>
+    <body>
+        <p name >P1</p>
+        <p name="parrafo2">P2</p>
+        <p name="p3">P3</p>
+        <p name="p4mola">P4</p>
+        <p name="superp5">P5</p>
+        <p name="superp6mola">P6</p>
+        <a class="highlight" href="https://www.iesgrancapitan.org/">IES Gran Capitan</a>
+    </body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <link rel="icon" type="image/x-icon" href="https://pbs.twimg.com/profile_images/556100713692921856/MipQIVZE_400x400.jpeg">
+  <meta charset="utf-8">
+  <title>formularios</title>
+</head>
+<body>
+    <h2>Actividad 1</h2>
+    <form name="actividad1" action="#" method="GET">
+        <p><input type="text" name="nombre" placeholder="Nombre">        
+        <input type="submit" value="Enviar">
+        </p>
+      </form>
+      <h2>Actividad 2</h2>
+      <form name="actividad2" action="#" method="GET">
+        <p>Nombre: <input type="text" name="nombre" value="Jose">        
+        <input type="submit" value="Enviar">
+        </p>
+      </form>
+      <h2>Actividad 3</h2>
+      <form name="actividad3" action="#" method="GET">
+        <p>Nombre: <input type="text" name="nombre" value="Jose" disabled>        
+        <input type="submit" value="Enviar">
+        </p>
+      </form>
+      <h2>Actividad 4</h2>
+      <form name="actividad4" action="#" method="GET">
+        <p><input type="radio" name="nombre" >Rojo</p>
+        <p><input type="radio" name="nombre" >Azul</p>
+        <p><input type="submit" value="Enviar"></p>
+      </form>
+      <h2>Actividad 5</h2>
+      <form name="actividad5" action="#" method="GET">
+        <select name="actividad5">
+            <option>Volvo</option>
+            <option>Ford</option>
+            <option>Fiat</option>
+            <option>Audi</option>
+            <p><input type="submit" value="Enviar"></p>
+          </select>
+          <h2>Actividad 6</h2>
+      </form>
+      <form name="actividad6" action="#" method="GET">
+            <textarea name="texto" rows="4" cols="20"></textarea>
+            <p><input type="submit" value="send"></p>
+      </form>
+      <h2>Ejercicio 7</h2>
+      <form name="actividad7" action="#" method="GET">
+          <fieldset> <legend>Curriculum</legend>
+          Nombre:<br>
+          <input type="text" name="nombre" size="20" title="Máximo 20 caracteres"><br>
+          Apellidos:<br>
+          <input type="text" name="nombre" size="40" title="Máximo 40 caracteres"><br>
+          ¿Tiene algún título oficial?<br>
+              <input type="radio" name="titulo" value="si" checked="checked">Si<br>
+              <input type="radio" name="titulo" value="no">No<br>
+              En caso afirmativo diga cual: <select name="titulo">
+                  <option value="ninguno">Ninguno</option>
+                  <option value="secundaria">Secundaria</option>
+                  <option value="bachillerato">Bachillerato</option>
+                  <option value="cfgm">CFGM</option>
+                  <option value="cfgs">CFGS</option>
+                  <option value="universitario">Universitario</option>
+              </select><br>
+          <textarea name="nombre" rows="6" cols="60">Experiencia</textarea><br>
+          <input type="submit" value="Enviar" disabled="" title="Este formulario está desactivado">
+      </fieldset>
+      </form>
+      <center><a href="index.html">Volver</a></center>
+</body>
+<footer>
+  &copy; Todos los derechos...
+  <address>a21bumalu@iesgrancapitan.org</address>
+</footer>
+</html>
