@@ -1,0 +1,51 @@
+.ej1 {
+    background-image: url("https://img.freepik.com/vector-gratis/fondo-floral-acuarela_23-2148479247.jpg?size=626&ext=jpg");
+    border: solid black 3px;
+    padding: 10%;
+    font-feature-settings: bold;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    margin: 0% 33% 0% 0%;
+}
+#ej1 {
+    border: solid black 3px;
+    padding: 10%;
+    font-feature-settings: bold;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    margin: 3% 33% 3% 0%;
+}
+#ej2 {
+    background-image: url("https://img.freepik.com/vector-gratis/fondo-plano-estrellas-brillantes_23-2148379400.jpg?size=626&ext=jpg");
+    padding: 5%;
+    color: black;
+}
+#ej3 {
+    display: inline-block;
+}
+#ej31 {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ36uJiOj4sZK6DshoK6JHRUD1JSYITa0lwQ&usqp=CAU");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 200px;
+    height: 250px;
+}
+div #ej31 p{
+    margin-left: 10%
+}
+#ej32 {
+    background-color: orange;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ36uJiOj4sZK6DshoK6JHRUD1JSYITa0lwQ&usqp=CAU");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 200px;
+    height: 112px;
+    background-blend-mode: darken;
+}
+div #ej32 p{
+    margin-left: 10%;
+}

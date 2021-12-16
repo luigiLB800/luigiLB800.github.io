@@ -1,0 +1,23 @@
+div {
+    color: red;
+    background-color: gold;
+    font-size: 4vw;
+    padding: 2vw;
+    margin: 2vw;
+    border: solid;
+}
+div.constrast {
+    filter: contrast(100);
+}
+div.brihtness {
+    filter: brightness(50%);
+}
+div.inverted {
+    filter: invert(100%);
+}
+div.rotated {
+    filter: hue-rotate(200deg);
+}
+div.grayscale {
+    filter: grayscale();
+}

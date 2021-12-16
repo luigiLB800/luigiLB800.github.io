@@ -1,0 +1,14 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border: 1px solid black;
+}
+#ej1 {
+    margin-left: 100px;
+    margin-top: 50px;
+}
+#ej2 {
+    transform: rotate(45deg);
+    margin-left: 5%;
+}
