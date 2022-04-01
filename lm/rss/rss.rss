@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <title>IES Gran Capitan</title>
+    <link>https://www.iesgrancapitan.org</link>
+    <description>Pagina web del IES Gran Capitan</description>
+    <item>
+        <title>Ejercicios HTML</title>
+        <link>https://luigilb800.github.io/lm/tema3/lasrecetas.html</link>
+        <description>Ejercicios HTML Luis Burgos Márquez</description>
+    </item>
+    <item>
+        <title>Ejercicios HTML</title>
+        <link>https://luigilb800.github.io/lm/tema6/tema6.html</link>
+        <description>Ejercicios XML Luis Burgos Márquez</description>
+    </item>
+</rss>
