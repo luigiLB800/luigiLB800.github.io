@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>>Ejercicios xml</title>
+  <link href="http://example.org/"/>
+  <author>
+    <name>Luis Burgos Marquez</name>
+  </author>
+  <id>urn:uuid:60a76c80-d399-11d9-b93C-0003939e0af6</id>
+  <entry>
+    <title>Las recetas de la abuela</title>
+    <link href="https://luigilb800.github.io/lm/LasRecetasChusteras/index.html"/>
+    <id>urn:uuid:1225c695-cfb8-4ebb-aaaa-80da344efa6a</id>
+    <summary>Las mejores recetas</summary>
+  </entry>
+</feed>
